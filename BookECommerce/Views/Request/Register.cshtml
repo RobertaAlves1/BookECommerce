@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Cadastro";
+}
+
+@model Register
+
+<h3>Cadastro</h3>
+
+<form asp-action="summary" method="post">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label class="control-label" for="nameClient">Nome do Cliente</label>
+                    <input type="text" class="form-control" id="nameClient" placeholder="Nome do Cliente"
+                           asp-for="@Model.Name">
+                    <span asp-validation-for="@Model.Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="Email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email"
+                           asp-for="@Model.Email">
+                    <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="Phone">Telefone</label>
+                    <input type="text" class="form-control" id="phone" placeholder="Telefone"
+                           asp-for="@Model.Phone">
+                    <span asp-validation-for="@Model.Phone" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label class="control-label" for="Address">Endereço</label>
+                    <input type="text" class="form-control" id="address" placeholder="Endereço"
+                           asp-for="@Model.Address">
+                    <span asp-validation-for="@Model.Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="Supplement">Complemento</label>
+                    <input type="text" class="form-control" id="supplement" placeholder="Complemento"
+                           asp-for="@Model.Supplement">
+                    <span asp-validation-for="@Model.Supplement" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="Neighborhood">Bairro</label>
+                    <input type="text" class="form-control" id="neighborhood" placeholder="Bairro"
+                           asp-for="@Model.Neighborhood">
+                    <span asp-validation-for="@Model.Neighborhood" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label class="control-label" for="City">Município</label>
+                    <input type="text" class="form-control" id="city" placeholder="Município"
+                           asp-for="@Model.City">
+                    <span asp-validation-for="@Model.City" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="FederatedUnit">UF</label>
+                    <select class="form-control single-select" name="FederatedUnit"
+                            asp-for="@Model.FederatedUnit">
+                        <option selected value="">[Selecione o Estado]</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                    <span asp-validation-for="@Model.FederatedUnit" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="ZipCode">CEP</label>
+                    <input type="text" class="form-control" id="zipCode" placeholder="CEP"
+                           asp-for="@Model.ZipCode">
+                    <span asp-validation-for="@Model.ZipCode" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <a class="btn btn-success" asp-action="carrossel">
+                        Continuar Comprando
+                    </a>
+                </div>
+                <div class="form-group">
+                    <button type="submit"
+                            class="btn btn-success">
+                        Finalizar Pedido
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+

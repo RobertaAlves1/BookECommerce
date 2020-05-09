@@ -1,0 +1,11 @@
+C:\Users\RobertaSuellenRodrig\Desktop\BookECommerce\BookECommerce\bin\Debug\netcoreapp2.0\BookECommerce.deps.json
+C:\Users\RobertaSuellenRodrig\Desktop\BookECommerce\BookECommerce\bin\Debug\netcoreapp2.0\BookECommerce.runtimeconfig.json
+C:\Users\RobertaSuellenRodrig\Desktop\BookECommerce\BookECommerce\bin\Debug\netcoreapp2.0\BookECommerce.runtimeconfig.dev.json
+C:\Users\RobertaSuellenRodrig\Desktop\BookECommerce\BookECommerce\bin\Debug\netcoreapp2.0\BookECommerce.dll
+C:\Users\RobertaSuellenRodrig\Desktop\BookECommerce\BookECommerce\bin\Debug\netcoreapp2.0\BookECommerce.pdb
+C:\Users\RobertaSuellenRodrig\Desktop\BookECommerce\BookECommerce\obj\Debug\netcoreapp2.0\BookECommerce.csprojAssemblyReference.cache
+C:\Users\RobertaSuellenRodrig\Desktop\BookECommerce\BookECommerce\obj\Debug\netcoreapp2.0\BookECommerce.csproj.CoreCompileInputs.cache
+C:\Users\RobertaSuellenRodrig\Desktop\BookECommerce\BookECommerce\obj\Debug\netcoreapp2.0\BookECommerce.AssemblyInfoInputs.cache
+C:\Users\RobertaSuellenRodrig\Desktop\BookECommerce\BookECommerce\obj\Debug\netcoreapp2.0\BookECommerce.AssemblyInfo.cs
+C:\Users\RobertaSuellenRodrig\Desktop\BookECommerce\BookECommerce\obj\Debug\netcoreapp2.0\BookECommerce.dll
+C:\Users\RobertaSuellenRodrig\Desktop\BookECommerce\BookECommerce\obj\Debug\netcoreapp2.0\BookECommerce.pdb

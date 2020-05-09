@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Carrossel";
+}
+
+@model List<Product>;
+
+<h2>Catálogo</h2>
+
+<div id="my-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+
+        @{
+            const int Tamanho_Pagina = 4;
+
+            var paginas = (int)Math.Ceiling((double)Model.Count() / Tamanho_Pagina);
+        }
+
+        @for (int pagina = 0; pagina < paginas; pagina++)
+        {
+            <div class="item @(pagina == 0 ? "active" : "")">
+                <div class="row">
+                    @{ 
+                        var produtosPagina = Model.Skip(pagina * Tamanho_Pagina).Take(Tamanho_Pagina);
+                    }
+                    @foreach (var produto in produtosPagina)
+                    {
+                        <div class="col-md-3 col-sm-3 col-lg-3">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <img class="img-produto-carrossel" src="~/images/products/large_@(produto.Code).png" />
+                                </div>
+                                <div class="panel-footer produto-footer">
+                                    <div class="produto-nome">@produto.Name</div>
+                                    <div><h4><strong>R$ @produto.Price</strong></h4></div>
+                                    <div class="text-center">
+                                        <a asp-controller="request"
+                                               asp-action="shopping"
+                                                     asp-route-codigo="@produto.Code"
+                                                            class="btn btn-success">Adicionar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+    <a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#my-carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>

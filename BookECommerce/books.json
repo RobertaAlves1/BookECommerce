@@ -1,0 +1,107 @@
+[
+  {
+    "Code": "001",
+    "Name": "O Senhor dos Aneis: A Sociedade do Anel",
+    "Price": 40.00
+  },
+  {
+    "Code": "002",
+    "Name": "O Senhor dos Aneis: As Duas Torres",
+    "Price": 54.90
+  },
+  {
+    "Code": "003",
+    "Name": "O Senhor dos Aneis: O Retorno do Rei",
+    "Price": 129.90
+  },
+  {
+    "Code": "004",
+    "Name": "Harry Potter e a Pedra Filosofal",
+    "Price": 29.18
+  },
+  {
+    "Code": "005",
+    "Name": "Harry Potter e a Camara Secreta",
+    "Price": 24.64
+  },
+  {
+    "Code": "006",
+    "Name": "Harry Potter e o Prisioneiro de Azkaban",
+    "Price": 34.99
+  },
+  {
+    "Code": "007",
+    "Name": "Harry Potter e o Calice de Fogo",
+    "Price": 28.50
+  },
+  {
+    "Code": "008",
+    "Name": "Harry Potter e a Ordem da Fenix",
+    "Price": 34.99
+  },
+  {
+    "Code": "009",
+    "Name": "Harry Potter e o Enigma do Principe",
+    "Price": 40.06
+  },
+  {
+    "Code": "010",
+    "Name": "Harry Potter e as Reliquias da Morte",
+    "Price": 44.63
+  },
+  {
+    "Code": "011",
+    "Name": "O Guia do Mochileiro das Galaxias",
+    "Price": 23.89
+  },
+  {
+    "Code": "012",
+    "Name": "O Restaurante no Fim do Universo",
+    "Price": 23.22
+  },
+  {
+    "Code": "013",
+    "Name": "A Vida, o Universo e Tudo Mais",
+    "Price": 17.60
+  },
+  {
+    "Code": "014",
+    "Name": "Ate Mais, e Obrgado Pelos Peixes",
+    "Price": 25.83
+  },
+  {
+    "Code": "015",
+    "Name": "Box Sandman - Colecao Definitiva",
+    "Price": 900.00
+  },
+  {
+    "Code": "016",
+    "Name": "Deuses Americanos",
+    "Price": 34.30
+  },
+  {
+    "Code": "017",
+    "Name": "Lugar Nenhum",
+    "Price": 19.50
+  },
+  {
+    "Code": "018",
+    "Name": "Como Viver Eternamente",
+    "Price": 19.00
+  },
+  {
+    "Code": "019",
+    "Name": "Inverno na Manha - Uma Jovem no Gueto de Varsovia",
+    "Price": 69.90
+  },
+  {
+    "Code": "020",
+    "Name": "Olga",
+    "Price": 6.99
+  },
+  {
+    "Code": "021",
+    "Name": "O Menino do Pijama Listrado",
+    "Price": 26.93
+  }
+]
